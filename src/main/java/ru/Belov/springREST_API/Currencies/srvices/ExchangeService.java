@@ -14,7 +14,7 @@ public class ExchangeService {
 
     public String getCurse(String byIndex) {
         RestTemplate response =new RestTemplate();
-        String token="0a7ad077c3d542509debf94332f86685";
+        String token="Ваш токент";
         String URL="https://openexchangerates.org/api/latest.json?app_id="+token+"/";//отношение одной валюты к другой
         Date nowDate=new Date();
         String forJsonNowDate=(1900+nowDate.getYear())+"-"+"0"+(+1+nowDate.getMonth())+"-"+nowDate.getDate();
@@ -40,7 +40,7 @@ public class ExchangeService {
         RestTemplate response =new RestTemplate();
         HttpHeaders headers=new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
-        String token="a19eAdXqHlZcal5kMhO7prAu4Jcj80o3";
+        String token="Ваш токен";
         headers.add("api_key",token);
         //headers.setContentDisposition(ContentDisposition.parse("GIPHY API Key."));
         String URl="https://api.giphy.com/v1/stickers/random";
