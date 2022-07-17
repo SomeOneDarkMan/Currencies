@@ -1,3 +1,4 @@
 # Currencies
  REST_API возвращает картинку зависемости от разницы курсов за сегодня и за вчера  по отношениею к доллару 
-![2022-07-17_19-20-52](https://user-images.githubusercontent.com/109151790/179411538-6cb1778e-3087-460e-898e-3723ef31e545.png)
+
+![2022-07-17_19-33-47](https://user-images.githubusercontent.com/109151790/179412242-03497a39-c300-4717-903f-3ca8ddfc786c.png)
